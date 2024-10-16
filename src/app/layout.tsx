@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/provider/theme-provider";
 
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
@@ -25,7 +26,13 @@ export default function RootLayout({
       <body
         className={`${vazirMatn.className} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider defaultTheme="dark">
+          <main className="dark:bg-primaryColor">
+            <div className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 ">
+              {children}
+            </div>
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );
