@@ -29,10 +29,8 @@ export default function RootLayout({
       >
         <ThemeProvider defaultTheme="dark">
           <NavBar />
-          <main className="dark:bg-primaryColor">
-            <div className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 ">
-              {children}
-            </div>
+          <main className="dark:bg-primaryColor relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+            <div className="max-w-7xl w-full">{children}</div>
           </main>
         </ThemeProvider>
       </body>
