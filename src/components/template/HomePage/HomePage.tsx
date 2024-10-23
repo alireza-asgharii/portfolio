@@ -1,4 +1,4 @@
-import Grid from "@/components/module/Grid";
+import Grid from "@/components/template/HomePage/Grid";
 import Hero from "./Hero";
 
 const HomePage = () => {
