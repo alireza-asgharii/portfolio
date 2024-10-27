@@ -1,6 +1,7 @@
 import Grid from "@/components/template/HomePage/Grid";
 import Hero from "./Hero";
 import RecentProject from "./RecentProject";
+import Experience from "./Experience";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <Grid />
       <RecentProject />
+      <Experience />
     </div>
   );
 };
