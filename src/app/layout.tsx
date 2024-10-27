@@ -23,14 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
         className={`${vazirMatn.className} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider defaultTheme="dark">
-          <NavBar />
-          <main className="dark:bg-primaryColor relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-            <div className="max-w-7xl w-full">{children}</div>
+          {/* <NavBar /> */}
+          <main className="bg-primaryColor relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+            {children}
           </main>
         </ThemeProvider>
       </body>

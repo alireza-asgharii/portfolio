@@ -10,7 +10,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <div className="text-center">
-        <h3 className="text-5xl">
+        <h3 className="text-4xl md:text-5xl">
           My
           <span className="text-purple-400"> approach</span>
         </h3>
