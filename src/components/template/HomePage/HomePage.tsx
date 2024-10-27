@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import RecentProject from "./RecentProject";
 import Experience from "./Experience";
 import Approach from "./Approach";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <RecentProject />
       <Experience />
       <Approach />
+      <Footer />
     </div>
   );
 };

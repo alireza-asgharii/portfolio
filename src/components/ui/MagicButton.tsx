@@ -3,7 +3,7 @@ import React from "react";
 type props = {
   title: string;
   outherClassName?: string;
-  handleClick: () => void;
+  handleClick?: () => void;
 };
 
 const MagicButton = ({ title, outherClassName, handleClick }: props) => {
