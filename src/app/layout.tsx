@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/provider/theme-provider";
-import { NavBar } from "@/components/layout/Navbar";
+// import { NavBar } from "@/components/layout/Navbar";
 
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
