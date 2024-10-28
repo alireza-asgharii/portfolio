@@ -30,7 +30,7 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="dark">
           {/* <NavBar /> */}
           <main className="bg-primaryColor relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-            {children}
+            <div className="max-w-7xl w-full">{children}</div>
           </main>
         </ThemeProvider>
       </body>

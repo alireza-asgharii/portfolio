@@ -19,7 +19,7 @@ const RecentProject = () => {
             key={id}
           >
             <PinContainer title="visit" href={link} className="p-3">
-              <div className="relative rounded-2xl flex items-center justify-center sm:w-[550px] w-[80vw] overflow-hidden h-[35vh] lg:h-[36vh] mb-10 object-cover">
+              <div className="relative rounded-2xl flex items-center justify-center sm:w-[550px] w-[80vw] overflow-hidden h-[250px] lg:h-[300px] mb-10 object-cover">
                 <img
                   src={img}
                   alt="cover"
